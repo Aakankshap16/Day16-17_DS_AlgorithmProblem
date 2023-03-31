@@ -6,10 +6,8 @@
         {
             Console.WriteLine("Welcome to Data Structures and Algorithms Practice Problem");
             Console.WriteLine("*********************");
-            //BUBBLE SORTING
-              BubbleSort bubbleSort = new BubbleSort();
-              bubbleSort.DisplayBubble();
-             
+            //ANAGRAM
+            Anagram.CheckAnagram();
 
         }
     }
