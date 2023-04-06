@@ -2,12 +2,12 @@
 {
     class Program
     {
-        public static void Main(string[] args) 
+        public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Data Structures and Algorithms Practice Problem");
             Console.WriteLine("*********************");
-            //ANAGRAM
-            Anagram.CheckAnagram();
+            PrimeNumberRange obj = new PrimeNumberRange();
+            obj.prime();
 
         }
     }
