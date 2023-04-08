@@ -8,9 +8,8 @@
             Console.WriteLine("Welcome to Data Structures and Algorithms Practice Problem");
             Console.WriteLine("*********************");
 
-            PrimeNumberRange obj = new PrimeNumberRange();
-            obj.prime();
+            RegexCustomMsgDemostration replace = new RegexCustomMsgDemostration();
+            replace.Change();
         }
     }
 }
-          
